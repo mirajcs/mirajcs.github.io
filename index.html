@@ -25,14 +25,29 @@
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 1;
         }
         .project {
             margin-bottom: 20px;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
+            padding: 15px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
         }
-        .project:last-child {
-            border-bottom: none;
+        .project:hover {
+            transform: scale(1.05);
         }
         footer {
             text-align: center;
@@ -43,20 +58,46 @@
         }
     </style>
 </head>
-<script src="script.js"></script>
 <body>
     <header>
-        <h1>Miraj Samarakkody</h1>
+        <h1>My Portfolio</h1>
     </header>
     <div class="container">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio! I am a professor in mathematics with a passion for research and teaching.</p>
-        
+        <img src="IMG_2628.jpeg" alt="My Photo" class="profile-photo">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am a professor in mathematics with a passion for research and teaching.</p>
+        </div>
+    </div>
+    <div class="container">
         <h2>Projects</h2>
         <div id="projects"></div>
     </div>
     <footer>
         <p>Contact me at: <a href="mailto:your.email@example.com" style="color: white;">your.email@example.com</a></p>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const projects = [
+                { title: "Mathematical Research Paper", description: "A deep dive into algebraic topology." },
+                { title: "Calculus Course", description: "An interactive online course for learning calculus." },
+                { title: "Number Theory Seminar", description: "A collection of talks on advanced number theory." }
+            ];
+
+            function loadProjects() {
+                const projectContainer = document.getElementById("projects");
+                projectContainer.innerHTML = "";
+
+                projects.forEach(project => {
+                    let div = document.createElement("div");
+                    div.className = "project";
+                    div.innerHTML = `<h3>${project.title}</h3><p>${project.description}</p>`;
+                    projectContainer.appendChild(div);
+                });
+            }
+
+            loadProjects();
+        });
+    </script>
 </body>
 </html>
