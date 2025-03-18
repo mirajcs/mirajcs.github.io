@@ -1,5 +1,5 @@
-<script>
-    // Define an array of projects (replace these with your actual projects)
+document.addEventListener("DOMContentLoaded", function() {
+    // Define an array of projects
     const projects = [
         { title: "Mathematical Research Paper", description: "A deep dive into algebraic topology." },
         { title: "Calculus Course", description: "An interactive online course for learning calculus." },
@@ -9,6 +9,13 @@
     // Function to dynamically create project elements
     function loadProjects() {
         const projectContainer = document.getElementById("projects");
+
+        // Ensure projectContainer exists
+        if (!projectContainer) {
+            console.error("Error: Project container not found!");
+            return;
+        }
+
         projectContainer.innerHTML = ""; // Clear any existing content
 
         projects.forEach(project => {
@@ -17,8 +24,9 @@
             div.innerHTML = `<h3>${project.title}</h3><p>${project.description}</p>`;
             projectContainer.appendChild(div);
         });
+        alert("Projects loaded successfully!");
     }
 
     // Run the function when the page loads
-    window.onload = loadProjects;
-</script>
+    loadProjects();
+});
