@@ -1,70 +1,89 @@
+/* Fix header position */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    z-index: 1000;
+    color: white;
+    background: linear-gradient(to right, black, red);
+}
+
+/* Prevent content from overlapping the header */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background: #333;
-    color: white;
-    padding: 20px;
+    color: black;
     text-align: center;
+    padding-top: 140px; /* Adds enough space below the fixed header */
 }
 
-.container {
-    width: 80%;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+/* Profile container: Side-by-side layout */
+.profile-container {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.profile-photo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.content {
-    flex: 1;
-}
-
-.project {
-    margin-bottom: 20px;
-    padding: 15px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.project:hover {
-    transform: scale(1.05);
-}
-
-footer {
-    text-align: center;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center content */
+    gap: 40px; /* Space between image and text */
+    text-align: left;
+    max-width: auto;
+    margin: 20px auto; /* Added margin to push it down */
+    background-color: white;
     padding: 20px;
-    background: #333;
-    color: white;
-    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Profile photo: Side-by-side layout with description */
+.profile-photo {
+    width: 150px; /* Adjust image size */
+    height: 170px;
+    border-radius: 10%;
+    flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+/* About Me content: Ensures text takes up remaining space */
+.content {
+    flex: 1; /* Allows text to take available space */
+}
+
+/* Ensure other containers do not overlap the header */
+.container {
+    max-width: auto;
+    margin: 40px auto; /* Ensure proper spacing */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer stays at the bottom */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background: linear-gradient(to right, black, red);
+}
+
+/* Responsive Design: Stack profile content on small screens */
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
+    .profile-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
         text-align: center;
     }
+
     .profile-photo {
-        margin: 0 auto 20px auto;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
     }
 }
