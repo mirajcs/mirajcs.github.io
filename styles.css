@@ -1,89 +1,125 @@
-/* Fix header position */
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    z-index: 1000;
-    color: white;
-    background: linear-gradient(to right, black, red);
-}
-
-/* Prevent content from overlapping the header */
-body {
+/* Reset default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page settings */
+html, body {
+    height: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     background-color: #f4f4f4;
     color: black;
     text-align: center;
-    padding-top: 140px; /* Adds enough space below the fixed header */
+    display: flex;
+    flex-direction: column;
 }
 
-/* Profile container: Side-by-side layout */
+/* Header container */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, black, red);
+    padding: 15px 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Align header content */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Title */
+header h1 {
+    font-size: 28px;
+    color: white;
+}
+
+/* Navigation buttons */
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Styled header buttons */
+.header-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-btn:hover {
+    background-color: #ffcc00;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Main content wrapper - Ensures content expands to push footer down */
+main {
+    width: 100%;
+    padding-top: 140px; /* Push content below fixed header */
+    flex: 1; /* Ensures it takes up all available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers content */
+}
+
+/* Profile container (About Me section only) */
 .profile-container {
     display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: center; /* Center content */
-    gap: 40px; /* Space between image and text */
-    text-align: left;
-    max-width: auto;
-    margin: 20px auto; /* Added margin to push it down */
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 90%;
+    max-width: 800px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
 }
 
-/* Profile photo: Side-by-side layout with description */
+/* Profile photo */
 .profile-photo {
-    width: 150px; /* Adjust image size */
+    width: 150px;
     height: 170px;
     border-radius: 10%;
-    flex-shrink: 0; /* Prevents image from shrinking */
+    flex-shrink: 0;
 }
 
-/* About Me content: Ensures text takes up remaining space */
+/* About Me section */
 .content {
-    flex: 1; /* Allows text to take available space */
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
 }
 
-/* Ensure other containers do not overlap the header */
-.container {
-    max-width: auto;
-    margin: 40px auto; /* Ensure proper spacing */
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Footer stays at the bottom */
+/* Footer - Now always at the bottom without overlapping */
+/* Footer - Stays at the bottom without fixing body height */
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     padding: 10px;
     text-align: center;
     font-size: 14px;
     color: white;
     background: linear-gradient(to right, black, red);
-}
-
-/* Responsive Design: Stack profile content on small screens */
-@media (max-width: 768px) {
-    .profile-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        text-align: center;
-    }
-
-    .profile-photo {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 10px;
-    }
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
