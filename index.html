@@ -6,25 +6,23 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<div id="header"></div>
+<div id="footer"></div>
+
+<script>
+    fetch("header.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+
+    fetch("footer.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+</script>
+
+
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="header-container">
-            <h1>Miraj Samarakkody</h1>
-
-            <!-- Mobile Menu Icon -->
-            <div class="menu-icon" onclick="toggleMenu()">☰</div>
-
-            <!-- Popup Menu -->
-            <nav class="header-buttons">
-                <a href="index.html" class="header-btn">About</a>
-                <a href="research.html" class="header-btn">Research</a>
-                <a href="#teaching" class="header-btn">Teaching</a>
-                <a href="#publications" class="header-btn">Publications</a>
-            </nav>
-        </div>
-    </header>
 
     <!-- Profile Section (About Me) -->
     <main>
@@ -33,19 +31,13 @@
             <div class="content" id="about-me">
                 <h2>About Me</h2>
                 <p>I’m Miraj Samarakkody, an Assistant Professor at Tougaloo College with a deep passion for differential geometry. Welcome to my portfolio!</p>
+                <p>I'm Maily focusing on the theoritical and applications of calculuations of variations on curves and surfaces. I'm enthusiastic especially on minimal surfaces. </p> I'm recienving on my Ph.D. from Texas Tech University in May 2025. My thesis <b>"On some Variational Problems in Curves and Surfaces,"</b> written under supervision of professors <a href="https://www.myweb.ttu.edu/tra97432/" target="_blank">Hung Tran</a> and <a href="https://www.math.ttu.edu/~apampano/" target="_blank">&Aacute;lvaro P&aacute;mpano</a>. 
+
             </div>
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer id="contact">
-        <h2>Miraj Samarakkody, Ph.D.</h2>
-        <p>Assistant Professor</p>
-        <p>Department of Mathematics & Computer Science,</p>
-        <p>Tougaloo College.</p>
-        <p>500 West County Line Road, Tougaloo, MS 39174</p>
-        <p>Contact me at: <a href="mailto:smsamarakkody@tougaloo.edu" class="email-link">smsmarakkody@tougaloo.edu</a></p>
-    </footer>
+    
 
     <script src="js/script.js"></script>
 </body>

@@ -10,7 +10,7 @@ html, body {
     height: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: #f4f4f4;
+    background-color: white;
     color: black;
     text-align: center;
     display: flex;
@@ -102,10 +102,9 @@ main {
     gap: 30px;
     width: 100%;
     max-width: 800px;
-    background-color: white;
+    background-color: #f2f2f2;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-top: 10pt;
 }
 
@@ -146,6 +145,20 @@ a.email-link {
 a.email-link:hover {
     color: green; /* Change color on hover */
     text-decoration: underline; /* Optional hover effect */
+}
+
+h2 {
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+p {
+    margin-top: 20px; /* Space above the paragraph */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+footer p {
+    margin-bottom: 5px; /* Adjust the space between paragraphs inside the footer */
+    margin-top: 5px; /* Adjust space above the paragraph */
 }
 
 
@@ -208,3 +221,4 @@ a.email-link:hover {
         text-align: center;
     }
 }
+
