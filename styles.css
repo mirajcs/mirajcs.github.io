@@ -88,7 +88,7 @@ header h1 {
 /* Main content wrapper */
 main {
     width: 100%;
-    margin-top: 0%;/* Push content below fixed header */
+    margin-top: 100px; /* Push content below fixed header */
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ main {
 /* About Me section */
 .content {
     flex: 1;
-    text-align: left;
+    text-align: justify;
     font-size: 18px;
 }
 
@@ -142,6 +142,11 @@ footer {
     left: 0;
 }
 
+.expanded-corners {
+    padding: 25px;
+    border-radius: 10px;
+  }
+
 
 a.email-link {
     color: greenyellow; /* Change to your desired color */
@@ -155,11 +160,18 @@ a.email-link:hover {
 
 h2 {
     margin-bottom: 15px; /* Space below the heading */
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px; /* Space above the heading */
+    text-align: center;
 }
 
 p {
     margin-top: 20px; /* Space above the paragraph */
     margin-bottom: 20px; /* Space between paragraphs */
+    text-align: justify;
 }
 
 footer p {
@@ -167,6 +179,10 @@ footer p {
     margin-top: 5px; /* Adjust space above the paragraph */
 }
 
+.element {
+    margin-left: 10px; /* Space between elements */
+    margin-right: 10px;
+}
 
 /* Mobile View */
 @media (max-width: 768px) {
@@ -216,7 +232,7 @@ footer p {
         width: 100%;
         height: 80%;
         margin-top: 80px;
-    
+    } /* Closing bracket added here */
 
     .profile-photo {
         width: 180px;
@@ -234,16 +250,74 @@ footer p {
         margin-top: 100px;
         margin-bottom: auto;
     }
+    .expanded-corners {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: px;
+      }
+}
+
+@media (min-width: 769px) {
+    .header-buttons {
+        display: flex; /* Show buttons on larger screens */
+        position: static; /* Reset position */
+        background: none; /* Remove background */
+        box-shadow: none; /* Remove shadow */
+        padding: 10px; /* Reset padding */
+        height: auto; /* Reset height */
+    }
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: auto;
+    }
+    .container {
+        flex-direction: row; /* Align items in a row */
+        text-align: left; /* Align text to the left */
+        padding: 20px; /* Reset padding */
+        margin-top: 50px; /* Reset margin */
+    }
+    .profile-container {
+        flex-direction: row; /* Align items in a row */
+        text-align: left; /* Align text to the left */
+        width: 100%; /* Full width */
+        height: auto; /* Reset height */
+        margin-top: 50px; /* Reset margin */
+    }
+
+    .menu-icon {
+        display: none; /* Hide menu icon on larger screens */
+    }
 }
 
 @media (max-width: 768px) {
-    body {
+    html, body {
         padding-top: 0%; /* Less space on mobile */
+        overflow-y: auto;
+    }
+    main {
+        margin-top: 100px;
     }
 }
 
 @media (min-width: 769px) {
-    body {
-        padding-top: 100px; /* More space on larger screens */
+    html, body {
+        padding-top: 0%; /* Less space on mobile */
+        overflow-y: auto;
     }
+    main {
+        margin-top: 150px;
+        margin-bottom: 180px;
+    }
+}
+
+ul {
+    margin-left: 25px;
+    text-align: left;
+}
+
+h4 {
+    margin-top: 20px; /* Space below the heading */
 }
