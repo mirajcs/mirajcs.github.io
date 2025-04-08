@@ -1,9 +1,9 @@
 /* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
+ /*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
+}*/
 
 /* Full page settings */
 html, body {
@@ -22,23 +22,22 @@ html, body {
 
 /* Header container */
 header {
-    position: fixed;
+    position: flex;
     top: 0;
     width: 100%;
     background: linear-gradient(to right, black, red);
-    padding: 15px 0;
+    padding: 0;
     z-index: 1000;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Align header content */
 .header-container {
-    display: flex;
+    display: fixed;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: auto;
     position: relative;
 }
 
@@ -87,16 +86,15 @@ header h1 {
 
 /* Main content wrapper */
 main {
-    width: 100%;
-    margin-top: 100px; /* Push content below fixed header */
+    width: 100%; /* Push content below fixed header */
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh - 200px); /* Adjust dynamically for footer height */
-    overflow-y: auto;
-    flex-grow: 1;
+    /*min-height: calc(100vh - 200px); */
+    /*overflow-y: auto;
+    flex-grow: 1;*/
 }
 
 /* Profile container (About Me section only) */
@@ -105,13 +103,13 @@ main {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    width: 100%;
+    width: 0%;
     max-width: 800px;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    margin-top: 10pt;
-    margin-bottom: 160pt;
+    margin-top: 0pt;
+    margin-bottom: 1pt;
 }
 
 /* Profile photo */
@@ -123,11 +121,11 @@ main {
 }
 
 /* About Me section */
-.content {
+/*.content {
     flex: 1;
     text-align: justify;
     font-size: 18px;
-}
+}*/
 
 /* Footer */
 footer {
@@ -137,7 +135,7 @@ footer {
     font-size: 14px;
     color: white;
     background: linear-gradient(to right, black, red);
-    position: fixed;
+    position: flex;
     bottom: 0;
     left: 0;
 }
