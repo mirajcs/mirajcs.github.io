@@ -343,3 +343,11 @@ ul, ol {
   ul ol, ol ul {
     padding-left: 0.5em; /* adjust this for sub-levels */
 }
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+
