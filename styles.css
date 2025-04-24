@@ -22,10 +22,10 @@ html, body {
 
 /* Header container */
 header {
-    position: flex;
+    position: relative;
     top: 0;
     width: 100%;
-    background: linear-gradient(to right, black, red);
+    background: linear-gradient(to right, #1e1e1e , red);
     padding: 0;
     z-index: 1000;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -33,9 +33,10 @@ header {
 
 /* Align header content */
 .header-container {
-    display: fixed;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     max-width: 1200px;
     margin: auto;
     position: relative;
@@ -80,8 +81,9 @@ header h1 {
     cursor: pointer;
     color: black;
     position: absolute;
-    top: 15px;
-    right: 20px; /* Moves icon to top-right */
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%); /* Moves icon to top-right */
 }
 
 /* Main content wrapper */
@@ -95,6 +97,14 @@ main {
     /*min-height: calc(100vh - 200px); */
     /*overflow-y: auto;
     flex-grow: 1;*/
+}
+
+.page-title {
+    margin: 0;
+}
+
+.button-group button {
+    margin-left: 10px;
 }
 
 /* Profile container (About Me section only) */
@@ -134,7 +144,7 @@ footer {
     text-align: center;
     font-size: 14px;
     color: white;
-    background: linear-gradient(to right, black, red);
+    background: linear-gradient(to right,#1e1e1e , red);
     position: flex;
     bottom: 0;
     left: 0;
@@ -193,7 +203,7 @@ footer p {
     .menu-icon {
         display: block; /* Show menu icon */
         position: absolute;
-        top: 1pt;
+        top: 30%;
         left: 90%;
         transform: translateX(-50%);
     }
@@ -202,7 +212,7 @@ footer p {
         display: none; /* Hidden by default */
         flex-direction: column;
         position: absolute;
-        top: 50px;
+        top: 100px;
         right: 20px; /* Align to the right side */
         background: red;
         border-radius: 10px;
@@ -227,7 +237,7 @@ footer p {
     .profile-container {
         flex-direction: column;
         text-align: center;
-        width: 100%;
+        width: 90%;
         height: 80%;
         margin-top: 80px;
     } /* Closing bracket added here */
@@ -240,6 +250,7 @@ footer p {
 
     .content {
         text-align: center;
+        width: 100;
     }
     .container{
         flex-direction: column;
@@ -280,7 +291,7 @@ footer p {
     .profile-container {
         flex-direction: row; /* Align items in a row */
         text-align: left; /* Align text to the left */
-        width: 100%; /* Full width */
+        width: 90%; /* Full width */
         height: auto; /* Reset height */
         margin-top: 50px; /* Reset margin */
     }
@@ -296,7 +307,7 @@ footer p {
         overflow-y: auto;
     }
     main {
-        margin-top: 100px;
+        margin-top: 1px;
     }
 }
 
@@ -306,8 +317,8 @@ footer p {
         overflow-y: auto;
     }
     main {
-        margin-top: 150px;
-        margin-bottom: 180px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
 
@@ -318,4 +329,13 @@ ul {
 
 h4 {
     margin-top: 20px; /* Space below the heading */
+}
+
+ul, ol {
+    padding-left: 1em; /* default for top-level list */
+  }
+  
+  ul ul, ol ol,
+  ul ol, ol ul {
+    padding-left: 0.5em; /* adjust this for sub-levels */
 }
