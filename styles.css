@@ -19,6 +19,10 @@ html, body {
     padding: 0;
     overflow: hidden;
 }
+a {
+    transition: 0.2s ease
+    ;
+}
 
 /* Header container */
 header {
