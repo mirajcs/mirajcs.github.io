@@ -58,6 +58,17 @@ header h1 {
     gap: 15px;
 }
 
+.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(to right, #1e1e1e , red); /* Button background color */
+            color: white; /* Button text color */
+            text-decoration: none; /* Remove underline from link */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Show pointer cursor on hover */
+        }
+
 /* Styled header buttons */
 .header-btn {
     background-color: none;
