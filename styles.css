@@ -265,7 +265,7 @@ footer p {
 
     .content {
         text-align: center;
-        width: 100;
+        width: 90%;
     }
     .container{
         flex-direction: column;
