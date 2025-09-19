@@ -29,7 +29,7 @@ header {
     position: relative;
     top: 0;
     width: 100%;
-    background: linear-gradient(to right, #1e1e1e , red);
+    background: linear-gradient(to right, black , silver);
     padding: 0;
     z-index: 1000;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -61,7 +61,7 @@ header h1 {
 .button {
             display: inline-block;
             padding: 10px 20px;
-            background: linear-gradient(to right, #1e1e1e , red); /* Button background color */
+            background: linear-gradient(to right, black , silver); /* Button background color */
             color: white; /* Button text color */
             text-decoration: none; /* Remove underline from link */
             border: none; /* Remove button border */
@@ -83,7 +83,7 @@ header h1 {
 }
 
 .header-btn:hover {
-    background-color: red;
+    background-color: silver;
     color: black;
     text-decoration: underline;
     transform: scale(1.1);
@@ -159,7 +159,7 @@ footer {
     text-align: center;
     font-size: 14px;
     color: white;
-    background: linear-gradient(to right,#1e1e1e , red);
+    background: linear-gradient(to right,black , silver);
     position: flex;
     bottom: 0;
     left: 0;
@@ -229,7 +229,7 @@ footer p {
         position: absolute;
         top: 100px;
         right: 20px; /* Align to the right side */
-        background: red;
+        background: silver;
         border-radius: 10px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         padding: 10px;
