@@ -359,6 +359,20 @@ li {
     margin-bottom: 10px;
 }
 
+.small-gif {
+    width: 300px;
+    height: auto;
+}
+
+.medium-gif {
+    width: 100px;
+    height: auto;
+}
+
+.large-gif {
+    width: 20px;
+    height: auto;
+}
 
 
 
