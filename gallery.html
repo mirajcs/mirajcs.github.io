@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teaching</title>
+  <title>Gallery</title>
   <link rel="stylesheet" href="styles.css"> 
   <script>
     window.MathJax = {
@@ -13,6 +13,7 @@
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
   <!-- Header will be loaded here -->
@@ -20,6 +21,19 @@
 
   <main>
     <div class="content">
+
+        <h2>3D Models</h2>
+        <figure>
+            <model-viewer
+                    src="gallery/double_helix(DNA).glb"
+                    alt="Double Helix (DNA) Structure"
+                    auto-rotate
+                    camera-controls
+                    style="width: 100%; height: 500px;">
+            </model-viewer>
+            <figcaption>Double Helix (DNA) Structure</figcaption>
+        </figure>
+        <a href="gallery/double_helix.blend" download>Get the Blender file here!</a>
 
         <h2>Surfaces</h2>
 
@@ -71,7 +85,6 @@
             <img src="gallery/parametric_curve_2.gif" alt="Parametric curve Loading ..." class="small-gif">
             <figcaption>Parametric curve given by $x= t + \sin (5t), y= t + \sin (6t)$ for $t\in [-7,7]$</figcaption>
         </figure>
-
 
 
 
