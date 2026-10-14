@@ -1,0 +1,22 @@
+---
+title: "Publications"
+description: "Papers and preprints, newest first."
+toc: false
+---
+
+::: {.reversed}
+1. M. Samarakkody, **"[Physics-Informed Neural Networks for Computing the Morse Index of the Critical Catenoid](http://ssrn.com/abstract=7570296),"** Under review.
+
+1. M. Samarakkody, **"[Formalizing the Classical Isoperimetric Inequality in the Two-Dimensional Case](https://arxiv.org/abs/2603.14663),"** Preprint.
+
+1. Y. Li, E. Güler, M. Toda, M. Samarakkody, **"Geometric Properties of Hypersurfaces of Right Conoids in Minkowski Spacetime."**, Submitted.
+
+1. Á. Pámpano, M. Samarakkody, and H. Tran, **"[Closed $p-$Elastic Curves in Spheres of $\mathbb{L}^3,$](https://www.sciencedirect.com/science/article/abs/pii/S0022247X24010692)"** *Journal of Mathematical Analysis and Applications*, 542-2(2025), 129147.
+
+1. S.R.S.M.C. Samarakkody, P.G.R.S. Ranasinghe, A.A.S. Perera **"Geometric Behavior of a Certain Class of Quotients of Finite Blashke Products,"** *ICMME*, Post Graduate Institute of Science, University of Peradeniya, 01(2019).
+:::
+
+<script>
+  // Number publications newest-first, like <ol reversed>.
+  document.querySelectorAll(".reversed ol").forEach((ol) => { ol.reversed = true; });
+</script>

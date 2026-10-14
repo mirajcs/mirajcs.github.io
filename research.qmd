@@ -1,0 +1,27 @@
+---
+title: "Research"
+description: "Research interests and open-source projects."
+---
+
+# 🔬 Research Interests
+
+I am a mathematician specializing in differential geometry. My current research interests are Physics-Informed Neural Networks (PINNs), manifold learning, and formal proof verification using Lean 4.
+
+# 💻 Open-Source Projects
+
+My open-source projects are available on my [GitHub page](https://github.com/mirajcs).
+
+The chart below shows my public GitHub contribution history, reflecting ongoing development across my open-source projects in formal verification, symbolic computation, and differential geometry.
+
+<img src="https://ghchart.rshah.org/mirajcs" alt="GitHub Contribution Chart" class="img-fluid">
+
+<!--
+# Positions
+
+- **PI**, [SCALE Project](https://www.scale4me.org/radiation-hardening), Tougaloo College, 2025-2026
+- **Research Mentor**, [Virtual Math Circle](https://www.math.lsu.edu/mathcircle/2025), Department of Mathematics, Louisiana State University - Summer, 2025.
+    - Topics:
+        - Exploring the Distance between Prime Numbers
+        - Hyperbolic Functions and Their Applications in Engineering and Architecture
+- **Research Assistant**, Department of Mathematics & Statistics, Texas Tech University - Spring, 2022 - Summer, 2024.
+-->

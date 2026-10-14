@@ -1,0 +1,150 @@
+---
+title: "Teaching"
+description: "Courses I have taught."
+---
+
+# 📚 Courses
+
+## Fall 2026
+
+*Tougaloo College, MS · Department of Mathematics & Computer Science*
+
+- Calculus I
+- Calculus II
+- Differential Equations
+- Advanced Calculus
+- Complex Variables
+
+## Summer 2026
+
+*Tougaloo College, MS · Department of Mathematics & Computer Science*
+
+- College Algebra
+  <!--
+  - Reference: *College Algebra, Julie Miller, Second Edition.*
+  -->
+
+## Spring 2026
+
+*Tougaloo College, MS · Department of Mathematics & Computer Science*
+
+- Complex Variables
+  <!--
+  - Reference: *Complex Variables and Applications by James Brown, 9th Edition.*
+  - Topics:
+      - Complex Numbers
+      - Analytic Functions
+      - Elementary Functions
+      - Integrals
+  -->
+- Calculus I
+  <!--
+  - Reference: *Calculus, Early Transcendentals, 9E, J. Stewart, D. Clegg, S. Watson.*
+  - Topics:
+      - Functions and Models
+      - Limits and Derivatives
+      - Differentiation Rules
+      - Applications of Differentiation
+  -->
+- Calculus II
+  <!--
+  - Reference: *Calculus, Early Transcendentals, 9E, J. Stewart, D. Clegg, S. Watson.*
+  - Topics:
+      - Integrals
+      - Applications of Integrations
+      - Techniques of Integration
+      - Further Applications of Integration
+  -->
+- Theory of Mathematical Statistics
+  <!--
+  - Reference: *Mathematical Statistics with Applications by D. Wackerly, W. Mendenhall and R. Scheaffer; 7th Edition.*
+  - Topics:
+      - What is Statistics?
+      - Discrete Random Variables and Their Probability Distributions
+      - Continuous Random Variables and Their Probability Distributions
+      - Multivariate Probability Distributions
+      - Functions of Random Variables
+  -->
+
+## Fall 2025
+
+*Tougaloo College, MS · Department of Mathematics & Computer Science*
+
+- Advanced Calculus
+  <!--
+  - Reference: *Principles of Mathematical Analysis, 3rd Edition by W. Rudin, McGraw Hill.*
+  - Topics:
+      - The Real and Complex Number Systems
+      - Basic Topology
+      - The Riemann-Stieltjes Integral
+  - Materials: [Moved to Canvas]
+  -->
+- Introduction to Probability
+  <!--
+  - Reference: *Introduction to Probability, 2nd Edition, J. K. Blitzstein, J. Hwang.*
+  - Topics:
+      - Probability and Counting
+      - Conditional Probability
+      - Random Variables and Their Distributions
+      - Expectation
+      - Continuous Random Variables
+  - Materials: [Moved to Canvas]
+  -->
+- Calculus I
+  <!--
+  - Reference: *Calculus, Early Transcendentals, 9E, J. Stewart, D. Clegg, S. Watson.*
+  - Topics:
+      - Functions and Models
+      - Limits and Derivatives
+      - Differentiation Rules
+      - Applications of Differentiation
+  - Materials: [Moved to Canvas]
+  -->
+- Differential Equations
+  <!--
+  - Reference: *Elementary Differential Equations and Boundary Value Problems, 12th edition, Boyce, DiPrima, Meade*
+  - Topics:
+      - Introduction to Mathematical Models
+      - First-order Differential Equations
+      - Second-order Linear Differential Equations
+      - Higher-order Linear Differential Equations
+      - Series Solutions of Second-Order Linear Equations
+      - The Laplace Transform
+  - Materials: [Moved to Canvas]
+  -->
+
+## Summer 2025
+
+*Tougaloo College, MS · Department of Mathematics & Computer Science*
+
+- College Algebra
+
+## Spring 2025
+
+*Tougaloo College, MS · Department of Mathematics & Computer Science*
+
+- Advance Calculus
+  <!--
+  - Reference: Principle of Mathematical Analysis, Walter Rudin
+  -->
+- Theory of Mathematical Statistics
+  <!--
+  - Reference Book: Mathematical Statistics and Data Analysis, John A. Rice
+  -->
+- Modern Algebra
+  <!--
+  - Reference Book: Contemporary Abstract Algebra, Joseph A. Gallian ($9^{\text{th}}$ Edition)
+  -->
+- Calculus II
+  <!--
+  - Reference Book: calculus: Early Transcendentals. $8^{\text{th}}$ Edition, James Stewart
+  -->
+
+## Fall 2024
+
+*Texas Tech University, TX · Department of Mathematics & Statistics*
+
+- Calculus II
+  <!--
+  - Reference Book: Calculus: Calculus by Smith/Strauss/Toda $7^{\text{th}}$ Edition
+  -->

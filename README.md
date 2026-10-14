@@ -2,35 +2,36 @@
 
 Personal academic website for Miraj Samarakkody, Assistant Professor at Tougaloo College, published at [mirajcs.github.io](https://mirajcs.github.io).
 
+Built with [Quarto](https://quarto.org).
+
 ## Pages
 
-- `index.html` — About / landing page
-- `research.html` — Research interests and projects
-- `teaching.html` — Courses and teaching materials
-- `presentations.html` — Talks and slides
-- `publications.html` — Papers and preprints
-- `header.html` / `footer.html` — Shared layout fragments injected by `script.js`
+- `index.qmd` — About / landing page
+- `research.qmd` — Research interests and projects
+- `teaching.qmd` — Courses and teaching materials
+- `presentations.qmd` — Talks and slides
+- `publications.qmd` — Papers and preprints
+- `cv.html`, `gallery.html` — Plain HTML pages (not yet converted), which still use `header.html` / `footer.html` / `script.js` / `styles.css`
 
 ## Structure
 
-- `styles.css` — Site styles
-- `script.js` — Loads shared header/footer and handles the mobile menu toggle
+- `_quarto.yml` — Site config: navbar, footer, and which files are copied to the output
+- Theme: stock Quarto `darkly` (dark only), plus a few rules in `custom.css`
+- `profile.jpg` — Home page photo (600px copy of `IMG_1928.JPG`)
 - `Files/` — Downloadable PDFs and supporting documents
-- `notes/`, `notes-n/` — Lecture and course notes
 - `gallery/` — Image assets (page currently disabled in the nav)
 
 ## Local development
 
-Because the pages use `fetch()` to load shared fragments, open them through a local server rather than `file://`:
-
 ```sh
-python3 -m http.server 8000
-# then visit http://localhost:8000
+quarto preview
 ```
+
+`quarto render` builds the site into `_site/` (git-ignored).
 
 ## Deployment
 
-Served by GitHub Pages from the `main` branch. Pushing to `main` publishes the site.
+On every push to `main`, `.github/workflows/publish.yml` renders the site and deploys it to GitHub Pages. In the repo settings, set **Pages → Source** to **GitHub Actions**.
 
 ## License
 

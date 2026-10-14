@@ -1,0 +1,28 @@
+---
+title: "Miraj Samarakkody"
+pagetitle: "Miraj Samarakkody"
+description: "Differential geometry, scientific machine learning, and formal proofs."
+toc: false
+---
+
+::: {.profile-header layout="[21,79]"}
+![](profile.jpg){.profile-pic fig-alt="Miraj Samarakkody"}
+
+::: {}
+I'm an Assistant Professor of Mathematics at [Tougaloo College](https://www.tougaloo.edu). I trained as a differential geometer at Texas Tech University, studying variational problems for curves and surfaces, and I now work where geometry meets computation. My current work uses **physics-informed neural networks (PINNs)** to compute geometric quantities and **Lean 4** to formally verify classical theorems.
+
+
+
+[<i class="bi bi-github"></i> GitHub](https://github.com/mirajcs){.btn .btn-outline-primary .btn-sm}
+[ORCiD](https://orcid.org/0000-0003-4750-4268){.btn .btn-outline-primary .btn-sm}
+[<i class="bi bi-envelope"></i> Email](mailto:smsamarakkody@tougaloo.edu){.btn .btn-outline-primary .btn-sm}
+:::
+:::
+
+
+
+## 📮 Contact
+
+Department of Mathematics & Computer Science, Tougaloo College\
+500 West County Line Road, Tougaloo, MS 39174\
+[smsamarakkody@tougaloo.edu](mailto:smsamarakkody@tougaloo.edu)

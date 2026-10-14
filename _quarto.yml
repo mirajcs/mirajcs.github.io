@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - teaching.qmd
+    - presentations.qmd
+    - publications.qmd
+  resources:
+    - Files/
+    - gallery/
+    - google18f1f6bc0d48c8fc.html
+    # Pages not (yet) converted to Quarto, plus the fragments they load.
+    - IMG_1928.JPG
+    - cv.html
+    - gallery.html
+    - header.html
+    - footer.html
+    - script.js
+    - styles.css
+
+website:
+  title: "Miraj Samarakkody"
+  site-url: https://mirajcs.github.io
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: presentations.qmd
+        text: Presentations
+      - href: publications.qmd
+        text: Publications
+    right:
+      - icon: github
+        href: https://github.com/mirajcs
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:smsamarakkody@tougaloo.edu
+        aria-label: Email
+  page-footer:
+    center:
+      - icon: github
+        href: https://github.com/mirajcs
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:smsamarakkody@tougaloo.edu
+        aria-label: Email
+
+format:
+  html:
+    theme: darkly
+    css: custom.css
+    toc: true
+    canonical-url: true
+    link-external-newwindow: true
