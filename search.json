@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "M. Samarakkody, “Physics-Informed Neural Networks for Computing the Morse Index of the Critical Catenoid,” Under review.\nM. Samarakkody, “Formalizing the Classical Isoperimetric Inequality in the Two-Dimensional Case,” Preprint.\nY. Li, E. Güler, M. Toda, M. Samarakkody, “Geometric Properties of Hypersurfaces of Right Conoids in Minkowski Spacetime.”, Submitted.\nÁ. Pámpano, M. Samarakkody, and H. Tran, “Closed \\(p-\\)Elastic Curves in Spheres of \\(\\mathbb{L}^3,\\)” Journal of Mathematical Analysis and Applications, 542-2(2025), 129147.\nS.R.S.M.C. Samarakkody, P.G.R.S. Ranasinghe, A.A.S. Perera “Geometric Behavior of a Certain Class of Quotients of Finite Blashke Products,” ICMME, Post Graduate Institute of Science, University of Peradeniya, 01(2019)."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Tougaloo College, MS · Department of Mathematics & Computer Science\n\nCalculus I\nCalculus II\nDifferential Equations - Notes\nAdvanced Calculus\nComplex Variables\n\n\n\n\nTougaloo College, MS · Department of Mathematics & Computer Science\n\nCollege Algebra \n\n\n\n\nTougaloo College, MS · Department of Mathematics & Computer Science\n\nComplex Variables \nCalculus I \nCalculus II \nTheory of Mathematical Statistics \n\n\n\n\nTougaloo College, MS · Department of Mathematics & Computer Science\n\nAdvanced Calculus \nIntroduction to Probability \nCalculus I \nDifferential Equations \n\n\n\n\nTougaloo College, MS · Department of Mathematics & Computer Science\n\nCollege Algebra\n\n\n\n\nTougaloo College, MS · Department of Mathematics & Computer Science\n\nAdvance Calculus \nTheory of Mathematical Statistics \nModern Algebra \nCalculus II \n\n\n\n\nTexas Tech University, TX · Department of Mathematics & Statistics\n\nCalculus II"
+  },
+  {
+    "objectID": "teaching.html#fall-2026",
+    "href": "teaching.html#fall-2026",
+    "title": "Teaching",
+    "section": "",
+    "text": "Tougaloo College, MS · Department of Mathematics & Computer Science\n\nCalculus I\nCalculus II\nDifferential Equations - Notes\nAdvanced Calculus\nComplex Variables"
+  },
+  {
+    "objectID": "teaching.html#summer-2026",
+    "href": "teaching.html#summer-2026",
+    "title": "Teaching",
+    "section": "",
+    "text": "Tougaloo College, MS · Department of Mathematics & Computer Science\n\nCollege Algebra"
+  },
+  {
+    "objectID": "teaching.html#spring-2026",
+    "href": "teaching.html#spring-2026",
+    "title": "Teaching",
+    "section": "",
+    "text": "Tougaloo College, MS · Department of Mathematics & Computer Science\n\nComplex Variables \nCalculus I \nCalculus II \nTheory of Mathematical Statistics"
+  },
+  {
+    "objectID": "teaching.html#fall-2025",
+    "href": "teaching.html#fall-2025",
+    "title": "Teaching",
+    "section": "",
+    "text": "Tougaloo College, MS · Department of Mathematics & Computer Science\n\nAdvanced Calculus \nIntroduction to Probability \nCalculus I \nDifferential Equations"
+  },
+  {
+    "objectID": "teaching.html#summer-2025",
+    "href": "teaching.html#summer-2025",
+    "title": "Teaching",
+    "section": "",
+    "text": "Tougaloo College, MS · Department of Mathematics & Computer Science\n\nCollege Algebra"
+  },
+  {
+    "objectID": "teaching.html#spring-2025",
+    "href": "teaching.html#spring-2025",
+    "title": "Teaching",
+    "section": "",
+    "text": "Tougaloo College, MS · Department of Mathematics & Computer Science\n\nAdvance Calculus \nTheory of Mathematical Statistics \nModern Algebra \nCalculus II"
+  },
+  {
+    "objectID": "teaching.html#fall-2024",
+    "href": "teaching.html#fall-2024",
+    "title": "Teaching",
+    "section": "",
+    "text": "Texas Tech University, TX · Department of Mathematics & Statistics\n\nCalculus II"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Miraj Samarakkody",
+    "section": "",
+    "text": "I’m an Assistant Professor of Mathematics at Tougaloo College. I trained as a differential geometer at Texas Tech University, studying variational problems for curves and surfaces, and I now work where geometry meets computation. My current work uses physics-informed neural networks (PINNs) to compute geometric quantities and Lean 4 to formally verify classical theorems.\n GitHub ORCiD  Email"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Miraj Samarakkody",
+    "section": "📮 Contact",
+    "text": "📮 Contact\nDepartment of Mathematics & Computer Science, Tougaloo College\n500 West County Line Road, Tougaloo, MS 39174\nsmsamarakkody@tougaloo.edu"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "🔬 Research Interests\nI am a mathematician specializing in differential geometry. My current research interests are Physics-Informed Neural Networks (PINNs), manifold learning, and formal proof verification using Lean 4.\n\n\n💻 Open-Source Projects\nMy open-source projects are available on my GitHub page.\nThe chart below shows my public GitHub contribution history, reflecting ongoing development across my open-source projects in formal verification, symbolic computation, and differential geometry."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "🎤 Talks\n\n“Morse Indices and Physics-Informed Neural Networks,” MERIC One-Day Conference, Millsaps College, Mississippi, September 12, 2026. (Slides)\n“Closed \\(p-\\)Elastic Curves in \\(2-\\)Space Forms,” AMS Sectional Meeting (Meeting No: 1198), University of Texas, San Antonio, September 14-15, 2024. (Slides)\n“Closed \\(p-\\)Elastic Curves in Spheres of Lorentz-Minkowski Space,” Texas Analysis and Mathematical Physics Symposium, Texas A&M University, College Station, Texas, February 10, 2024. (Slides)\n“Geometric Behavior of a Certain Class of Quotients of Finite Blashke Products,” ICMME, Post Graduate Institute of Science, University of Peradeniya, March, 2019.\n\n\n\n🖼️ Posters\n\n“Formalizing the Isoperimetric Inequality in Lean 4”, XX Red Raider Minisymposium - Geometric Analysis and Applications, Texas Tech University, April \\(25^{th}, ~2026\\). (Poster)\n“Closed \\(p-\\)Elastic Curves in \\(2-\\)Space Forms,” Texas Geometry and Topology Conference (\\(68^{th}\\) Meeting), Texas A&M University, College Station, November 8-10, 2024. (Poster)\n\n\n\n🏛️ Seminars\n\n“From Manifolds to Machines: Formalizing Differential Geometry in Lean”, Probability, Differential Geometry and Mathematical Physics Seminar, Texas Tech University, April \\(24^{th}, ~2026\\). (Slides)\n“On Some Variational Problems in Curves and Surfaces,” Probability, Differential Geometry and Mathematical Physics Seminar, Texas Tech University, January \\(21^{st}, ~2025\\). (Slides)\n“On Some Variational Problems in Differential Geometry,” Probability, Differential Geometry and Mathematical Physics Seminar, Texas Tech University, November \\(1^{st}, ~2023\\).\n“Minimal Surfaces,” Probability, Differential Geometry and Mathematical Physics Seminar, Texas Tech University, November \\(2^{nd}\\), 2022.\n\n\n\n🧮 Outreach Programs\n\n“Brainstorming Math Questions IV,” Math Circle, Department of Mathematics & Statistics, Texas Tech University, March \\(28^{th}\\), 2024.\n“Brainstorming Math Questions III,” Math Circle, Department of Mathematics & Statistics, Texas Tech University, March \\(21^{st}\\), 2024.\n“Brainstorming Math Questions II,” Math Circle, Department of Mathematics & Statistics, Texas Tech University, November \\(29^{th}\\), 2023.\n“Brainstorming Math Questions I,” Math Circle, Department of Mathematics & Statistics, Texas Tech University, November \\(8^{th}\\), 2023.\n“Some Geometric Problems,” Math Circle, Department of Mathematics & Statistics, Texas Tech University, October \\(11^{th}\\), 2023.\n“Minimal Surfaces and Generalized Elastic Curves,” 3MT, Texas Tech University, October \\(6^{th}\\), 2023.\n\n\n\n🤝 Participations\n\nMississippi IDeA/EPSCoR Conference 2026, July 23, 2026, Lake Terrace Convention Center, Hattiesburg, MS. (One of my undergraduate students presented.)\nTexas Geometry and Topology Conference, \\(67^{th}\\) Meeting, April 19-21, Texas Tech University.\n“Differential Geometry and Integrable Systems,” XIX Red Raider Minisymposium, April 20-23, 2023, Texas Tech University.\nTexas Geometry and Topology Conference, February 25-27, 2022, University of Texas at Dallas."
+  }
+]
