@@ -9,16 +9,7 @@ project:
     - publications.qmd
   resources:
     - Files/
-    - gallery/
     - google18f1f6bc0d48c8fc.html
-    # Pages not (yet) converted to Quarto, plus the fragments they load.
-    - IMG_1928.JPG
-    - cv.html
-    - gallery.html
-    - header.html
-    - footer.html
-    - script.js
-    - styles.css
 
 website:
   title: "Miraj Samarakkody"

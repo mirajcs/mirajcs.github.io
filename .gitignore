@@ -1,4 +1,7 @@
 /.quarto/
 /_site/
+.DS_Store
+.idea/
+.vite/
 
 **/*.quarto_ipynb

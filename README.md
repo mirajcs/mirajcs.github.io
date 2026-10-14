@@ -11,7 +11,6 @@ Built with [Quarto](https://quarto.org).
 - `teaching.qmd` — Courses and teaching materials
 - `presentations.qmd` — Talks and slides
 - `publications.qmd` — Papers and preprints
-- `cv.html`, `gallery.html` — Plain HTML pages (not yet converted), which still use `header.html` / `footer.html` / `script.js` / `styles.css`
 
 ## Structure
 
@@ -19,7 +18,6 @@ Built with [Quarto](https://quarto.org).
 - Theme: stock Quarto `darkly` (dark only), plus a few rules in `custom.css`
 - `profile.jpg` — Home page photo (600px copy of `IMG_1928.JPG`)
 - `Files/` — Downloadable PDFs and supporting documents
-- `gallery/` — Image assets (page currently disabled in the nav)
 
 ## Local development
 
