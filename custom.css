@@ -32,8 +32,19 @@ table.table-borderless td {
 }
 
 @media (max-width: 600px) {
+    .profile-header .quarto-layout-row {
+        flex-direction: column;
+    }
+
+    .profile-header .quarto-layout-cell {
+        flex-basis: auto !important;
+        width: 100%;
+    }
+
     .profile-pic {
-        display: none;
+        display: block;
+        max-width: 160px;
+        margin: 0 auto 1rem;
     }
 }
 
