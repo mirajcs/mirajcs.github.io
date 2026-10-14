@@ -10,7 +10,7 @@ description: "Courses I have taught."
 *Tougaloo College, MS · Department of Mathematics & Computer Science*
 
 - Calculus I 
-- Calculus II
+- Calculus II - [Notes](https://mirajcs.github.io/calculus_II/)
 - Differential Equations - [Notes](https://mirajcs.github.io/differential_equations_examples_Julia/)
 - Advanced Calculus
 - Complex Variables
