@@ -3,26 +3,27 @@ title: "Presentations"
 description: "Talks, posters, seminars, and outreach."
 ---
 
-# 🎤 Talks
+# Talks
 
 - **"Morse Indices and Physics-Informed Neural Networks,"** [MERIC One-Day Conference,](https://themeric.org/conference/) Millsaps College, Mississippi, September 12, 2026. [(Slides)](Files/MERIC_presentation_26.pdf)
 - **"Closed $p-$Elastic Curves in $2-$Space Forms,"** [AMS Sectional Meeting (Meeting No: 1198),](https://www.ams.org/meetings/sectional/2319_program.html) University of Texas, San Antonio, September 14-15, 2024. [(Slides)](Files/AMS2024_presentation.pdf)
 - **"Closed $p-$Elastic Curves in Spheres of Lorentz-Minkowski Space,"** [Texas Analysis and Mathematical Physics Symposium,](https://texamp.github.io/) Texas A&M University, College Station, Texas, February 10, 2024. [(Slides)](Files/Texas_anm_24.pdf)
 - **"Geometric Behavior of a Certain Class of Quotients of Finite Blashke Products,"** ICMME, Post Graduate Institute of Science, University of Peradeniya, March, 2019.
 
-# 🖼️ Posters
+# Posters
 
 - **"Formalizing the Isoperimetric Inequality in Lean 4"**, [XX Red Raider Minisymposium - Geometric Analysis and Applications](https://www.math.ttu.edu/conferences/rr2026/index.html), Texas Tech University, April $25^{th}, ~2026$. [(Poster)](Files/red_raider_2026.pdf)
 - **"Closed $p-$Elastic Curves in $2-$Space Forms,"** [Texas Geometry and Topology Conference ($68^{th}$ Meeting)](https://www.math.tamu.edu/conferences/tgtc/), Texas A&M University, College Station, November 8-10, 2024. [(Poster)](Files/Poster_TGTC_2024.pdf)
 
-# 🏛️ Seminars
+# Seminars
 
+- **The Mathematics Behind Deep Learning**, HBCU-UP Undergraduate Seminar Series, Tougaloo College, October 28, 2026. [(Slides)](Files/prsentation_handout_hbcu_up_2026.pdf)
 - **"From Manifolds to Machines: Formalizing Differential Geometry in Lean"**, [Probability, Differential Geometry and Mathematical Physics Seminar](https://www.math.ttu.edu/events/all/2026/spring/week/4_20.php), Texas Tech University, April $24^{th}, ~2026$. [(Slides)](Files/seminar_presentation_04_24_2026.pdf)
 - **"On Some Variational Problems in Curves and Surfaces,"** [Probability, Differential Geometry and Mathematical Physics Seminar](https://www.math.ttu.edu/events/all/2025/spring/week/1_20.php), Texas Tech University, January $21^{st}, ~2025$. [(Slides)](Files/Defense.pdf)
 - **"On Some Variational Problems in Differential Geometry,"** Probability, Differential Geometry and Mathematical Physics Seminar, Texas Tech University, November $1^{st}, ~2023$.
 - **"Minimal Surfaces,"** Probability, Differential Geometry and Mathematical Physics Seminar, Texas Tech University, November $2^{nd}$, 2022.
 
-# 🧮 Outreach Programs
+# Outreach Programs
 
 - **"Brainstorming Math Questions IV,"** Math Circle, Department of Mathematics & Statistics, Texas Tech University, March $28^{th}$, 2024.
 - **"Brainstorming Math Questions III,"** Math Circle, Department of Mathematics & Statistics, Texas Tech University, March $21^{st}$, 2024.
@@ -31,7 +32,7 @@ description: "Talks, posters, seminars, and outreach."
 - **"Some Geometric Problems,"** Math Circle, Department of Mathematics & Statistics, Texas Tech University, October $11^{th}$, 2023.
 - **"Minimal Surfaces and Generalized Elastic Curves,"** 3MT, Texas Tech University, October $6^{th}$, 2023.
 
-# 🤝 Participations
+# Participations
 
 - **[Mississippi IDeA/EPSCoR Conference 2026](https://msinbre.org/miec26/)**, July 23, 2026, Lake Terrace Convention Center, Hattiesburg, MS. (One of my undergraduate students presented.)
 - **[Texas Geometry and Topology Conference,](https://www.math.ttu.edu/conferences/tgtc/2024/index.html)** $67^{th}$ Meeting, April 19-21, Texas Tech University.
