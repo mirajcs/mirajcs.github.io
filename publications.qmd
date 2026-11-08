@@ -16,6 +16,19 @@ toc: false
 1. S.R.S.M.C. Samarakkody, P.G.R.S. Ranasinghe, A.A.S. Perera **"Geometric Behavior of a Certain Class of Quotients of Finite Blashke Products,"** *ICMME*, Post Graduate Institute of Science, University of Peradeniya, 01(2019).
 :::
 
+## Software
+
+::: {.reversed}
+
+1. M. Samarakkody, **"[Formalizing the Classical Isoperimetric Inequality in the Two-Dimensional Case](https://doi.org/10.5281/zenodo.20258500),"** Version v1.0.0 [Computer software], *Zenodo*, 2026. DOI: [10.5281/zenodo.20258500](https://doi.org/10.5281/zenodo.20258500).
+
+
+
+1. M. Samarakkody, **"[ParametricCurves.jl: A Toolkit for Parametric Curves](https://doi.org/10.5281/zenodo.20288831),"** Version v1.3.1 [Computer software], *Zenodo*, 2026. DOI: [10.5281/zenodo.20288831](https://doi.org/10.5281/zenodo.20288831).
+
+1. M. Samarakkody, **"[SymKit.jl: A Powerful Symbolic Computation Package for Julia](https://doi.org/10.5281/zenodo.20294030),"** Version v0.1.1 [Computer software], *Zenodo*, 2026. DOI: [10.5281/zenodo.20294030](https://doi.org/10.5281/zenodo.20294030).
+:::
+
 <script>
   // Number publications newest-first, like <ol reversed>.
   document.querySelectorAll(".reversed ol").forEach((ol) => { ol.reversed = true; });
