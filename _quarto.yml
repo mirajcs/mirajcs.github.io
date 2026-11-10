@@ -7,6 +7,7 @@ project:
     - teaching.qmd
     - presentations.qmd
     - publications.qmd
+    - resources.qmd
   resources:
     - Files/
     - google18f1f6bc0d48c8fc.html
@@ -27,6 +28,8 @@ website:
         text: Presentations
       - href: publications.qmd
         text: Publications
+      - href: resources.qmd
+        text: Resources 
     right:
       - icon: github
         href: https://github.com/mirajcs
