@@ -5,13 +5,13 @@ description: "Research interests and open-source projects."
 
 # 🔬 Research Interests
 
-I am a mathematician specializing in differential geometry. My current research interests are Physics-Informed Neural Networks (PINNs), manifold learning, and formal proof verification using Lean 4.
+I am a mathematician specializing in differential geometry. My current research interests are Physics-Informed Neural Networks (PINNs) and manifold learning.
 
 # 💻 Open-Source Projects
 
 My open-source projects are available on my [GitHub page](https://github.com/mirajcs).
 
-The chart below shows my public GitHub contribution history, reflecting ongoing development across my open-source projects in formal verification, symbolic computation, and differential geometry.
+The chart below shows my public GitHub contribution history, reflecting ongoing development across my open-source projects in symbolic computation and differential geometry.
 
 <img src="https://ghchart.rshah.org/mirajcs" alt="GitHub Contribution Chart" class="img-fluid">
 

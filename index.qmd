@@ -9,7 +9,7 @@ toc: false
 ![](headshot.jpg){.profile-pic fig-alt="Miraj Samarakkody"}
 
 ::: {}
-I'm an Assistant Professor of Mathematics at [Tougaloo College](https://www.tougaloo.edu). I trained as a differential geometer at Texas Tech University, studying variational problems for curves and surfaces, and I now work where geometry meets computation. My current work uses **physics-informed neural networks (PINNs)** to compute geometric quantities and **Lean 4** to formally verify classical theorems.
+I'm an Assistant Professor of Mathematics at [Tougaloo College](https://www.tougaloo.edu). I trained as a differential geometer at Texas Tech University, studying variational problems for curves and surfaces, and I now work where geometry meets computation. My current work uses **physics-informed neural networks (PINNs)** to compute geometric quantities.
 
 
 
