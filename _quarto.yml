@@ -11,6 +11,8 @@ project:
   resources:
     - Files/
     - google18f1f6bc0d48c8fc.html
+  post-render:
+    - fix-sitemap.ts
 
 website:
   title: "Miraj Samarakkody"
