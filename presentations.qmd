@@ -34,6 +34,8 @@ description: "Talks, posters, seminars, and outreach."
 
 # Participations
 
+
+- **[SciTechCONNECT Jackson](https://events.bizzabo.com/SciTechConnectJackson)**, November 13, 2026, Jackson State University Jackson, Mississippi.  
 - **[Mississippi IDeA/EPSCoR Conference 2026](https://msinbre.org/miec26/)**, July 23, 2026, Lake Terrace Convention Center, Hattiesburg, MS. (One of my undergraduate students presented.)
 - **[Texas Geometry and Topology Conference,](https://www.math.ttu.edu/conferences/tgtc/2024/index.html)** $67^{th}$ Meeting, April 19-21, Texas Tech University.
 - **"Differential Geometry and Integrable Systems,"** [XIX Red Raider Minisymposium](https://www.math.ttu.edu/conferences/rr2023/), April 20-23, 2023, Texas Tech University.
